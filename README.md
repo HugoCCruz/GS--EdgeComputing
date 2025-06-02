@@ -14,7 +14,7 @@ Uma enchente em uma residência causa diversos prejuízos e transtornos. A água
 
  
 
-Para isso, criamos um sistema automatizado com Arduino que detecta o nível da água em determinado ponto (como uma garagem ou piso baixo) e, ao atingir certo limite, aciona um mecanismo para abrir ralos ou comportas, permitindo que a água seja drenada e evitando que o problema se torne mais grave. 
+Para isso, criamos um sistema automatizado com Arduino que detecta o nível da água em determinado ponto (como uma garagem ou piso baixo) e, ao atingir certo limite, aciona um mecanismo para abrir ralos ou fechar comportas, permitindo que a água seja drenada e evitando que o problema se torne mais grave. 
 
  
 
@@ -99,7 +99,7 @@ O sistema monitora o nível da água em tempo real utilizando sensores. Quando o
 
 4. O ralo se abre automaticamente, permitindo a drenagem. 
 
-5. Caso apenas o ralo não seja suficiente, uma comporta é aberta pelo servo motor, drenando até níveis altos de água. 
+5. Caso o ralo não esteja conseguindo drenar e o nível chegue à crítico, uma comporta é fechada. 
 
 6. O sistema pode retornar ao estado inicial quando o nível se normaliza.
 
