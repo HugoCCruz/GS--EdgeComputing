@@ -91,7 +91,7 @@ O sistema monitora o nível da água em tempo real utilizando sensores. Quando o
 
 ## :gear: Funcionamento 
 
-1. O sensor DHT22 detecta o nível de umidade do ambiente 
+1. O sensor DHT22 detecta o nível de umidade do ambiente. Os leds respondem a esse sensor. 
 
 2. O sensor de nível detecta a altura da água. 
 
@@ -124,6 +124,13 @@ https://wokwi.com/projects/432413696310358017
 | HC-SR04 Echo    | 7                 |
 | LCD I2C SDA     | A4 (ou SDA)       |
 | LCD I2C SCL     | A5 (ou SCL)       |
+
+## 📚 Biblioteca
+
+- DHT sensor library
+- Adafruit Unified Sensor
+- LiquidCrystal I2C
+- Servo
 
 
  
