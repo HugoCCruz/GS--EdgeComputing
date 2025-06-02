@@ -36,9 +36,9 @@ O sistema monitora o nível da água em tempo real utilizando sensores. Quando o
 
  **Placa principal**
 
- -Arduino UNO 
+ - Arduino UNO 
 
-  Microcontrolador responsável por ler os sensores, controlar os atuadores e processar os dados. 
+   Microcontrolador responsável por ler os sensores, controlar os atuadores e processar os dados. 
 
  
 
@@ -46,15 +46,15 @@ O sistema monitora o nível da água em tempo real utilizando sensores. Quando o
 
  
 
- -DHT22 (Sensor de temperatura e umidade) 
+ - DHT22 (Sensor de temperatura e umidade) 
 
-  Mede a temperatura e a umidade do ambiente. Está conectado a um pino digital do Arduino (possivelmente D2) e utiliza um resistor pull-up. 
+   Mede a temperatura e a umidade do ambiente. Está conectado a um pino digital do Arduino (possivelmente D2) e utiliza um resistor pull-up. 
 
  
 
- -HC-SR04 (Sensor ultrassônico de distância) 
+ - HC-SR04 (Sensor ultrassônico de distância) 
 
-   Mede a distância por meio de ondas ultrassônicas. Possui quatro pinos: VCC, GND, Trig e Echo. Os pinos de sinal estão conectados aos pinos digitais do Arduino. 
+    Mede a distância por meio de ondas ultrassônicas. Possui quatro pinos: VCC, GND, Trig e Echo. Os pinos de sinal estão conectados aos pinos digitais do Arduino. 
 
  
 
@@ -62,18 +62,18 @@ O sistema monitora o nível da água em tempo real utilizando sensores. Quando o
 
  
 
- -LEDs (3 unidades: vermelho, amarelo e verde) 
+ - LEDs (3 unidades: vermelho, amarelo e verde) 
 
-  Servem como indicadores visuais de status ou níveis. Cada LED está conectado em série com um resistor limitador de corrente. 
+   Servem como indicadores visuais de status ou níveis. Cada LED está conectado em série com um resistor limitador de corrente. 
  
 
 **Atuador**
 
  
 
- -Servo motor 
+ - Servo motor 
 
-  Executa movimentos angulares. Está conectado à alimentação e a um pino PWM do Arduino. 
+   Executa movimentos angulares. Está conectado à alimentação e a um pino PWM do Arduino. 
 
  
 
@@ -81,7 +81,7 @@ O sistema monitora o nível da água em tempo real utilizando sensores. Quando o
 
  
 
- -Display LCD 16x2 com módulo I2C 
+ - Display LCD 16x2 com módulo I2C 
 
    Exibe informações como temperatura, umidade e distância. Está conectado ao Arduino via interface I2C (pinos SDA e SCL, correspondentes aos pinos A4 e A5 no Arduino UNO). **
 
