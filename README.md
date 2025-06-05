@@ -1,7 +1,7 @@
-# :ocean: Sistema de Controle de Enchentes com Arduino 
+# :ocean: Aqua Sensors
 
  
-
+### Sistema de Controle de Enchentes com Arduino
 Este projeto utiliza um sistema automatizado com Arduino para detectar e controlar o nível da água em ambientes residenciais, com o objetivo de prevenir alagamentos. 
 
  
