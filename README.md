@@ -107,7 +107,7 @@ O sistema monitora o nível da água em tempo real utilizando sensores. Quando o
 ## :test_tube: Simulação no Wokwi 
 
  
-https://wokwi.com/projects/432413696310358017 
+[Link para o projeto](https://wokwi.com/projects/432689496451230721)
 
 
 ## :electric_plug:Diagrama de Conexão
@@ -132,6 +132,8 @@ https://wokwi.com/projects/432413696310358017
 - LiquidCrystal I2C
 - Servo
 
+## 🎥Video sobre o projeto
+[Link para o video](https://youtu.be/f2Le8-OcDzQ)
 
  
 
